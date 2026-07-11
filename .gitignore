@@ -1,0 +1,24 @@
+# Secrets / PKI
+*.key
+*.pem
+*.p12
+*.crt
+!*.example.crt
+ca-private/
+pki-ca/private/
+
+# Raw AIS data (licensing not yet resolved — see thesis Data Availability)
+*.csv
+!**/sample_*.csv
+
+# VM/testbed configuration
+*.qcow2
+*.ova
+netem-configs/
+mongo-dumps/
+
+# Python / OS noise
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
