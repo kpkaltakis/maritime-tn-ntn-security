@@ -9,6 +9,8 @@ pki-ca/private/
 
 # Raw AIS data (licensing not yet resolved — see thesis Data Availability)
 *.csv
+!ue_*.csv
+!relay_*.csv
 !**/sample_*.csv
 
 # VM/testbed configuration
