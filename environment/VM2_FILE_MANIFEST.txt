@@ -1,0 +1,65 @@
+VM: ntn-5gc
+Directory: /home/ntn-5gc/controller
+Snapshot time: 2026-07-10T21:12:26+03:00
+
+=== SYSTEM ===
+Linux ntn-5gc 6.17.0-29-generic #29~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 11 10:30:58 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+Python 3.12.3
+
+=== FILE MANIFEST ===
+2026-06-28T22:16:25.0260066180         4558 ./controller_loop_old.py
+2026-06-28T22:17:34.8025125860         5374 ./m1_estimator.py
+2026-06-28T22:17:59.7423515300         5341 ./m2_reasoner.py
+2026-06-28T22:18:22.9272019380         6431 ./m3_selector.py
+2026-06-28T22:18:43.0090724640         4114 ./m4_enforce.py
+2026-06-28T22:19:03.7659387350         3379 ./m5_audit.py
+2026-06-29T07:39:33.1371816540         4861 ./controller_loop.py
+2026-07-01T09:41:25.8916864250         8369 ./m4_enforce_real.py
+2026-07-01T15:21:43.8825300400          556 ./kb_wire.py
+2026-07-01T15:29:56.6114107620         8556 ./m6_rotation.py
+2026-07-01T15:44:20.7923037520         5098 ./kb_protocol.py
+2026-07-01T15:44:38.9647228240         2956 ./kb_keystore.py
+2026-07-01T15:45:15.6300266490         1552 ./kb_cred_chain.py
+2026-07-01T15:45:52.3318785630         2580 ./kb_prover_v2.py
+2026-07-01T16:10:35.2527507470         3504 ./kb_negative_tests_real.py
+2026-07-01T16:10:58.9385186890         3354 ./kb_verifier_v2.py
+2026-07-01T16:38:30.8284493900         1989 ./kb_frr_breakdown.py
+2026-07-02T10:09:32.7863947350         6340 ./kb_campaign.py
+2026-07-02T12:47:51.7603424880         6786 ./kb_campaign_n3000.log
+2026-07-02T13:14:17.2191845540         8489 ./eval_harness_v2.py
+2026-07-04T09:13:37.5300135280     49923742 ./puget_subset.csv
+2026-07-04T09:14:31.7338970160    149636048 ./aegeanet.csv
+2026-07-04T09:18:51.4452043850         3725 ./check_puget_pinning.py
+2026-07-04T09:23:37.9872631220         7977 ./calibrate_motion.py
+2026-07-04T09:25:14.4559190340        11214 ./select_demo_vessels.py
+2026-07-04T09:26:49.8985688290        13912 ./live_demo_voyage_old.py
+2026-07-04T09:27:06.8545978290         8894 ./demo_vessel_selection.json
+2026-07-04T09:28:25.3795800410      3093355 ./demo_audit_live.jsonl
+2026-07-04T09:31:56.9973938380        14551 ./live_demo_voyage.py
+2026-07-04T09:32:35.1434581920       288564 ./demo_enforcement.jsonl
+2026-07-04T09:32:35.1439962980      3093355 ./demo_audit_live2.jsonl
+2026-07-04T09:32:35.1501758820      2354275 ./demo_run_output.log
+2026-07-04T09:37:41.9613082820         4090 ./reconstruct_positions.py
+2026-07-04T09:38:02.2844896770       388076 ./demo_positions.jsonl
+2026-07-04T09:42:07.5998529710         3300 ./consolidate_for_viz.py
+2026-07-04T09:42:18.0877151380       168604 ./demo_viz_data.json
+2026-07-04T10:08:45.2496804160         3182 ./export_dashboard_data.py
+2026-07-04T10:10:05.1069156520       427495 ./dashboard_data.json
+2026-07-09T15:59:45.5809192410         2731 ./logs/kb_relay_delay_0.json
+2026-07-09T16:16:59.5123482140         2731 ./logs/kb_relay_delay_25.json
+2026-07-09T16:44:34.7905225040         2816 ./logs/kb_relay_delay_75.json
+2026-07-09T16:59:11.4250441620         2818 ./logs/kb_relay_delay_100.json
+2026-07-09T17:15:01.4474669080         2815 ./logs/kb_relay_delay_125.json
+2026-07-09T17:32:20.0086745870         2832 ./logs/kb_relay_delay_150.json
+2026-07-09T17:46:56.9092746190         2821 ./logs/kb_relay_delay_50.json
+2026-07-09T19:35:47.5582422790         1175 ./rtt_capture.py
+2026-07-09T19:57:52.7461632420       222571 ./logs/rtt_direct_pertrial.jsonl
+2026-07-09T20:24:19.6152909750         2467 ./eval_ablations.py
+2026-07-09T20:30:18.3272492630         1610 ./eval_baselines.py
+2026-07-09T20:34:55.1529411270         8668 ./eval_real_voyages_old.py
+2026-07-09T20:36:40.3101151970         4275 ./eval_harness.py
+2026-07-10T07:40:10.6293516330    672069456 ./puget.csv
+2026-07-10T07:42:06.5456627760        10295 ./eval_real_voyages.py
+2026-07-10T07:48:46.3597341440         4553 ./controller_real_voyages.jsonl
+2026-07-10T07:55:10.5913376160         1823 ./kb_multiprobe_far.py
+2026-07-10T21:12:26.8066929780          270 ./VM2_FILE_MANIFEST.txt

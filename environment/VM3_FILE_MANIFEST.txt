@@ -1,0 +1,76 @@
+VM: vessel1-triton
+Directory: /home/vessel1/controller
+Snapshot time: 2026-07-10T21:14:37+03:00
+
+=== SYSTEM ===
+Linux vessel1-triton 6.17.0-29-generic #29~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 11 10:30:58 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+Python 3.12.3
+
+=== FILE MANIFEST ===
+2026-06-28T22:20:34.1906808150         5374 ./m1_estimator.py
+2026-06-28T22:21:00.4198507810         6431 ./m3_selector.py
+2026-06-29T10:32:11.6691398900         6574 ./calibrate_motion_old.py
+2026-07-01T09:15:27.0655406440         7976 ./calibrate_motion.py
+2026-07-01T09:37:26.6901014270         8369 ./m4_enforce_real2.py
+2026-07-01T10:23:09.5632432550         8556 ./m6_rotation.py
+2026-07-01T10:23:41.4504431070         3875 ./m6_provisioner.py
+2026-07-01T10:24:50.6917502630         3875 ./m4_enforce_real3.py
+2026-07-01T10:39:50.4714869530         3343 ./m4_enforce_real.py
+2026-07-01T10:41:03.2226373640         3377 ./pqc_signers.py
+2026-07-01T15:18:38.2038034970          556 ./kb_wire.py
+2026-07-01T15:39:44.7522851370         5098 ./kb_protocol.py
+2026-07-01T15:40:06.9714127880         2956 ./kb_keystore.py
+2026-07-01T15:40:25.6705204530         2580 ./kb_prover_v2_old.py
+2026-07-01T15:41:04.5777451330         1552 ./kb_cred_chain.py
+2026-07-01T15:43:31.5806011560         6679 ./kb_campaign_old.py
+2026-07-01T16:11:33.0270251020         3354 ./kb_verifier_v2.py
+2026-07-01T16:11:50.7491815790         3504 ./kb_negative_tests_real.py
+2026-07-01T19:55:31.3528314880          176 ./kb_campaign_n3000.log
+2026-07-01T22:14:28.9546742840         8220 ./kb_campaign.py
+2026-07-02T09:50:32.0226186840         2081 ./kb_prover_v2.py
+2026-07-02T12:57:42.4266560510         5208 ./calibrate_holdout.py
+2026-07-02T13:08:03.1765934920         8489 ./eval_harness_v2.py
+2026-07-02T13:15:21.4959782350         5341 ./m2_reasoner.py
+2026-07-02T13:17:22.0126697600         1610 ./eval_baselines.py
+2026-07-02T13:18:11.7369582170         4275 ./eval_harness.py
+2026-07-02T13:18:41.2141299810         2467 ./eval_ablations.py
+2026-07-03T11:08:07.0882815590           73 ./.git/description
+2026-07-03T11:08:07.0892815660         2783 ./.git/hooks/push-to-checkout.sample
+2026-07-03T11:08:07.0892815660         4726 ./.git/hooks/fsmonitor-watchman.sample
+2026-07-03T11:08:07.0902815720         1492 ./.git/hooks/prepare-commit-msg.sample
+2026-07-03T11:08:07.0902815720          896 ./.git/hooks/commit-msg.sample
+2026-07-03T11:08:07.0912815790         2308 ./.git/hooks/sendemail-validate.sample
+2026-07-03T11:08:07.0922815850         1643 ./.git/hooks/pre-commit.sample
+2026-07-03T11:08:07.0922815850          189 ./.git/hooks/post-update.sample
+2026-07-03T11:08:07.0922815850          416 ./.git/hooks/pre-merge-commit.sample
+2026-07-03T11:08:07.0922815850         4898 ./.git/hooks/pre-rebase.sample
+2026-07-03T11:08:07.0932815920         1374 ./.git/hooks/pre-push.sample
+2026-07-03T11:08:07.0932815920         3650 ./.git/hooks/update.sample
+2026-07-03T11:08:07.0962816110          544 ./.git/hooks/pre-receive.sample
+2026-07-03T11:08:07.0972816180          424 ./.git/hooks/pre-applypatch.sample
+2026-07-03T11:08:07.0972816180          478 ./.git/hooks/applypatch-msg.sample
+2026-07-03T11:08:07.0982816240          240 ./.git/info/exclude
+2026-07-03T11:08:07.1000399990           23 ./.git/HEAD
+2026-07-03T11:08:07.1122817150          159 ./.git/config
+2026-07-03T11:08:19.1143596020           15 ./.git/objects/4b/825dc642cb6eb9a060e54bf8d69288fbee4904
+2026-07-03T11:08:19.1143596020           65 ./.git/index
+2026-07-03T11:08:19.1166251500           41 ./.git/COMMIT_EDITMSG
+2026-07-03T12:45:14.5758208240         3724 ./check_puget_pinning.py
+2026-07-03T13:37:08.3297221590         5490 ./validate_feasible_regime.py
+2026-07-03T14:45:34.9227420890         2629 ./inspect_borderline.py
+2026-07-03T16:22:48.8213532250         4786 ./together/select_demo_vessels.py
+2026-07-03T16:22:58.8210735130         9748 ./together/live_demo_voyage.py
+2026-07-03T16:25:50.2934582150         3379 ./m5_audit.py
+2026-07-03T17:39:48.1447625220         6867 ./select_demo_vessels_old.py
+2026-07-03T17:40:54.7152790110         9890 ./live_demo_voyage_old.py
+2026-07-03T18:10:46.8500996680        12630 ./live_demo_voyage_old2.py
+2026-07-03T18:11:45.8763851520      6226200 ./demo_audit_old.jsonl
+2026-07-03T18:14:00.5490567010      3142419 ./demo_audit_clean.jsonl
+2026-07-03T22:35:46.1843945400        10660 ./select_demo_vessels_old2.py
+2026-07-03T22:39:06.6926796910        13911 ./live_demo_voyage.py
+2026-07-03T22:42:42.0631999460        11213 ./select_demo_vessels.py
+2026-07-03T22:43:07.0172641610         8922 ./demo_vessel_selection.json
+2026-07-03T22:48:47.9934306570      3093355 ./demo_audit_v2.jsonl
+2026-07-10T09:07:44.7650528480        12674 ./prover.log
+2026-07-10T17:45:38.9740294550         4147 ./calibrate_fullpool.py
+2026-07-10T21:14:37.2644837320          284 ./VM3_FILE_MANIFEST.txt

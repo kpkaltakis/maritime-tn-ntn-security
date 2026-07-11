@@ -1,0 +1,12 @@
+nohup: ignoring input
+[relay] listening on 9453, forwarding to 192.168.0.20:9452, extra_delay=150.0ms
+[relay] relayed 50 connections
+[relay] relayed 100 connections
+[relay] relayed 150 connections
+[relay] relayed 200 connections
+[relay] relayed 250 connections
+[relay] relayed 300 connections
+[relay] relayed 350 connections
+[relay] relayed 400 connections
+[relay] relayed 450 connections
+[relay] relayed 500 connections
